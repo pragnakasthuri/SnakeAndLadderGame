@@ -21,6 +21,7 @@ public class SnakeAndLadderUC1 {
             } else {
                 startPos+=diceValue;
             }
+            System.out.println("Dice Role: "+cnt+", Position: "+startPos);
         }while(startPos < WIN_POS);
         System.out.println("Congratulations ! You won the SnakeAndLadder Game in "+cnt+" steps!");
     }
